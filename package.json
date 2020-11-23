@@ -1,0 +1,29 @@
+{
+  "name": "zorakcz",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch": "webpack --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jakubenglicky/zorakcz.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jakubenglicky/zorakcz/issues"
+  },
+  "homepage": "https://github.com/jakubenglicky/zorakcz#readme",
+  "dependencies": {
+    "css-loader": "^5.0.1",
+    "extract-loader": "^5.1.0",
+    "less-loader": "^7.1.0",
+    "path": "^0.12.7",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.6.0",
+    "webpack-cli": "^4.2.0"
+  }
+}
