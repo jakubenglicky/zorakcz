@@ -1,13 +1,13 @@
 * {
     box-sizing: border-box;
-  }
+}
   
-  html {
+html {
     -webkit-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
-  }
+}
   
-  body {
+body {
     font-family: 'Open Sans', sans-serif;
     font-size: 12px;
     font-weight: 400;
@@ -18,30 +18,50 @@
     -webkit-text-size-adjust: none;
     -webkit-font-smoothing: subpixel-antialiased;
     margin: 0;
-  }
+}
 
-  a {
+a {
     color: #151515;
     text-decoration: none;
     transition: .25s;
-   }  
+}  
 
-   a:hover, a:focus {
-        color: #9d7f6c;
-        text-decoration: none;
-        outline: none;
+a:hover, a:focus {
+    color: #9d7f6c;
+    text-decoration: none;
+    outline: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: 600;
+    color: #151515;
+}
+
+h1 {
+    font-size: 32px;
+    line-height: 1.2;
+    @media (min-width: 768px) {
+        font-size: 56px;
+        line-height: 1.4;
     }
-
-    button:focus {
-        outline: none;
+    @media (min-width: 992px) {
+        font-size: 62px;
+        line-height: 1.2;
     }
+}
 
-  img {
-      max-width: 100%;
-  }
+button:focus {
+    outline: none;
+}
 
-  /* Header */
-  nav {
+img {
+    max-width: 100%;
+}
+
+/* Header */
+nav {
     display: -ms-flexbox;
     display: flex;
     -ms-flex-wrap: wrap;
@@ -231,4 +251,56 @@
             }
         }
     }
-  }
+}
+
+/* Container */
+.my-container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 2.25em;
+    padding-bottom: 2.25em;
+    @media (min-width: 576px) {
+      max-width: 540px;
+    }
+    @media (min-width: 768px) {
+      max-width: 720px;
+    }
+    @media (min-width: 992px) {
+      max-width: 765px;
+    }
+    @media (min-width: 1700px) {
+      max-width: 990px;
+    }
+}
+
+/* Main carousel */
+#main-carousel {
+    width: 100%;
+        .tns-nav,
+        button {
+            display: none;
+        }
+        .main-carousel-item {
+            min-height: 34.4271vw;
+            position: relative;
+            img {
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                -o-object-fit: scale-down;
+                object-fit: scale-down;
+                object-fit: cover;
+                z-index: -1;
+            }
+            .text {
+                padding: 100px 0 200px;
+                h1 {
+                    color: #fff;
+                    letter-spacing: .05em;
+                }
+            }
+        }
+}
