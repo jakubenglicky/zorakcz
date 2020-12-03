@@ -26,5 +26,8 @@
     "style-loader": "^2.0.0",
     "webpack": "^5.6.0",
     "webpack-cli": "^4.2.0"
+  },
+  "devDependencies": {
+    "tiny-slider": "^2.9.3"
   }
 }
