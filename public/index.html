@@ -1,8 +1,123 @@
+<!DOCTYPE html>
 <html>
 <head>
-	<script src="js/bundle.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Zorak</title>
+	
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.3/tiny-slider.css">
+<!--[if (lt IE 9)]><script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.3/min/tiny-slider.helper.ie8.js"></script><![endif]-->
+
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap" rel="stylesheet">
 </head>
 <body>
-<h1>ZoRak.cz</h1>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
+
+	<header>
+		<nav class="click-dropdown">
+			<div class="navbar-brand">
+				<a href="/">
+					<img src="https://livedemo00.template-help.com/wt_prod-22319/images/logo-default-244x56.png">
+				</a>
+			</div>
+
+			<button class="navbar-toggle open-drop">
+				<span></span>
+			</button>
+
+			<div class="navbar-content click-dropdown-content">
+				<ul>
+					<li>
+						<a class="active" href="#uvod">Úvod</a>
+					</li>
+					<li>
+						<a href="#sluzby">Služby</a>
+					</li>
+					<li>
+						<a href="#o-nas">O nás</a>
+					</li>
+					<li>
+						<a href="#realizovane-projekty">Realizované projekty</a>
+					</li>
+					<li>
+						<a href="#kontakt">Kontakt</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+	</header>
+
+	<main>
+		<section id="uvod">
+			<div class="my-slider">
+					<div class="main-carousel-item">
+						<img src="https://livedemo00.template-help.com/wt_prod-22319/images/slider-1-slide-1-1920x661.jpg">
+						<div class="container">
+							<div class="text">
+								<h1>Vítejte<br>na Zoraku</h1>
+							</div>
+						</div>
+					</div>
+					<div class="main-carousel-item">
+						<img src="https://livedemo00.template-help.com/wt_prod-22319/images/slider-1-slide-2-1920x661.jpg">
+						<div class="container">
+							<div class="text">
+								<h1>Vše<br>pro váš barák</h1>
+							</div>
+						</div>
+					</div>
+					<div class="main-carousel-item">
+						<img src="https://livedemo00.template-help.com/wt_prod-22319/images/slider-1-slide-3-1920x661.jpg">
+						<div class="container">
+							<div class="text">
+								<h1>Vítejte<br>na Zoraku</h1>
+							</div>
+						</div>
+					</div>
+			</div>
+			<div id="carousel-controls">
+				<span class="prev" data-controls="prev"><</span>
+				<span class="next" data-controls="next">></span>
+			</div>
+		</section>
+
+		<section id="sluzby">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4 service-box">
+						<div class="image">
+							<img src="https://livedemo00.template-help.com/wt_prod-22319/images/production-preview-1-370x303.jpg">
+						</div>
+						<h3>Obklady</h3>
+					</div>
+					<div class="col-md-4 service-box">
+						<div class="image">
+							<img src="https://livedemo00.template-help.com/wt_prod-22319/images/production-preview-2-370x303.jpg">
+						</div>
+						<h3>Okna</h3>
+					</div>
+					<div class="col-md-4 service-box">
+						<div class="image">
+							<img src="https://livedemo00.template-help.com/wt_prod-22319/images/production-preview-3-370x303.jpg">
+						</div>
+						<h3>Nábytek</h3>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="o-nas">
+			<div class="container">
+				<h2>O nás</h2>
+				<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Duis condimentum augue id magna semper rutrum. Etiam bibendum elit eget erat. Maecenas lorem. In sem justo, commodo ut, suscipit at, pharetra vitae, orci. Aenean vel massa quis mauris vehicula lacinia. Phasellus et lorem id felis nonummy placerat. Praesent in mauris eu tortor porttitor accumsan. In convallis.</p>
+			</div>
+		</section>
+
+	</main>
+
+
+	<script src="js/bundle.js"></script>
+
 </body>
 </html>
