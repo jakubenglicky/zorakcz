@@ -1,5 +1,3 @@
 node_modules
-public/*
-!public/img/*
-!public/index.html
-!public/CNAME
+public/js
+
