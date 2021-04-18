@@ -13,7 +13,6 @@ body {
     font-weight: 400;
     line-height: 2;
     letter-spacing: 0.05em;
-    color: #9b9b9b;
     background-color: #fff;
     -webkit-text-size-adjust: none;
     -webkit-font-smoothing: subpixel-antialiased;
@@ -411,20 +410,36 @@ nav {
     .service-box {
         margin-bottom: 30px;
         .image {
-            text-align: center;
+            height: 0;
+            width: 100%;
+            padding-bottom: 66.666667%;
+            position: relative;
+            border-radius: 15px;
             overflow: hidden;
+            &:hover img {
+                transform: scale(1.1);
+            }
             img {
-                max-height: 230px;
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                -o-object-fit: scale-down;
+                object-fit: scale-down;
+                object-fit: cover;
                 transition: all .3s ease;
-                &:hover {
-                    transform: scale(1.1);
-                }
             }
         }
         h3 {
             margin-top: 18px;
-            font-size: 16px;
+            font-size: 20px;
             text-align: center;
+            text-transform: uppercase;
+        }
+        p {
+            color: #9b9b9b;
+            padding: 10px 15px;
+            text-align: justify;
+            margin: 0;
         }
     }
 }
@@ -432,6 +447,7 @@ nav {
 /* o nas */
 #o-nas {
     background-color: #f6f6f6;
+    color: #696969;
     padding: 50px 0;
     @media (min-width: 768px)   {
         padding: 70px 0;
@@ -476,11 +492,45 @@ footer {
 
 #spoluprace {
     padding: 50px 0;
+    color: #696969;
     @media (min-width: 768px)   {
         padding: 70px 0;
     }
     @media (min-width: 992px) {
         padding: 90px 0;
+    }
+    h2 {
+        font-size: 36px;
+        margin-bottom: 30px;
+    }
+    form {
+        padding: 20px;
+        background: #f6f6f6;
+        min-height: 420px;
+        #form-name, #form-email {
+            border: 1px solid grey;
+            border-radius: 5px;
+            height: 40px;
+            font-size: 16px;
+            padding-left: 5px;
+            width: 240px;
+        }
+        textarea {
+            width: 480px;
+            height: 200px;
+            resize: none;
+            font-family: 'Open Sans', sans-serif;
+            font-size: 16px;
+        }
+        #submit {
+            height: 50px;
+            border: 1px solid grey;
+            border-radius: 5px;
+            color: #696969;
+            font-size: 16px;
+            background: white;
+            cursor: pointer;
+        }
     }
 }
 
