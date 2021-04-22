@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500&display=swap');
+
+@color-red: #F5594D;
+
 * {
     box-sizing: border-box;
 }
@@ -8,7 +12,7 @@ html {
 }
   
 body {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto Light', sans-serif;
     font-size: 16px;
     font-weight: 400;
     line-height: 2;
@@ -29,7 +33,7 @@ a {
 }  
 
 a:hover, a:focus {
-    color: #9d7f6c;
+    color: @color-red;
     text-decoration: none;
     outline: none;
 }
@@ -124,12 +128,13 @@ nav {
         z-index: 101;
     }
     .navbar-brand {
+        text-align: center;
         img {
             height: 33px;
         }
         @media (min-width: 992px) {
-            padding-top: 32px;
-            padding-bottom: 32px;
+            padding-top: 28px;
+            padding-bottom: 28px;
             max-width: 1200px;
             margin-left: auto;
             margin-right: auto;
@@ -138,8 +143,8 @@ nav {
             }
         }
         @media (min-width: 1200px) {
-            padding-top: 42px;
-            padding-bottom: 42px;            
+            padding-top: 34px;
+            padding-bottom: 34px;
         }
         a {
             padding-left: 15px;
@@ -203,7 +208,8 @@ nav {
             z-index: 100;
         }
         @media (min-width: 992px) {
-            border-top: 1px solid #ebebeb;
+            border-top: 1px solid @color-red;
+
             display: flex;
             flex-direction: row;
             align-items: center;
@@ -250,7 +256,7 @@ nav {
                     padding: 9px 56px 9px 18px;
                     &.active {
                         color: #fff;
-                        background: #9d7f6c;
+                        background: @color-red;
                     }
                     @media (min-width: 992px) {
                         padding: 5px 7px;
@@ -258,7 +264,7 @@ nav {
                         &:hover,
                         &.active {
                             background: transparent;
-                            color: #9d7f6c;
+                            color: @color-red;
                         }
                     }
                 }
@@ -380,6 +386,7 @@ nav {
         display: none;
     }
     .main-carousel-item {
+        text-align: center;
         min-height: 34.4271vw;
         position: relative;
         img {
@@ -404,6 +411,49 @@ nav {
     }
 }
 
+.intro-block {
+    min-height: 45vw;
+    position: relative;
+    display: grid;
+    img,
+    video {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        -o-object-fit: scale-down;
+        object-fit: scale-down;
+        -o-object-fit: cover;
+        object-fit: cover;
+        z-index: -1;
+        filter: brightness(.7);
+    }
+    &__text {
+        margin-left: 30px;
+        margin-top: auto;
+        margin-bottom: auto;
+        //@media @w768 {
+        //    margin-left: 120px;
+        //    max-width: 820px;
+        //}
+        h1 {
+            color: white;
+            font-size: 40px;
+            //@media @w768 {
+            //    font-size: 72px;
+            //}
+        }
+        a {
+            border: 2px solid @color-red;
+            display: inline-block;
+            font-size: 25px;
+            font-weight: bold;
+            padding: 10px 25px;
+            margin-top: 30px;
+            text-decoration: none;
+        }
+    }
+}
+
 /* sluzby */
 #projekty {
     padding: 90px 0;
@@ -414,7 +464,6 @@ nav {
             width: 100%;
             padding-bottom: 66.666667%;
             position: relative;
-            border-radius: 15px;
             overflow: hidden;
             &:hover img {
                 transform: scale(1.1);
@@ -455,6 +504,9 @@ nav {
     @media (min-width: 992px) {
         padding: 90px 0;
     }
+    img {
+        margin-top: 25px;
+    }
 }
 
 /* Footer */
@@ -466,7 +518,7 @@ footer {
     a {
         color: #fff;
         &:hover {
-            color: #9d7f6c;
+            color: @color-red;
         }
     }
     h4 {
