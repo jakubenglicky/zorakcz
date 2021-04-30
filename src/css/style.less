@@ -440,6 +440,7 @@ nav {
 /* Main carousel */
 #uvod {
     width: 100%;
+    padding: 0;
     .tns-nav,
     button {
         display: none;
@@ -472,12 +473,16 @@ nav {
 }
 
 .intro-block {
-    min-height: 45vw;
+    height: 45vw;
     position: relative;
     display: grid;
-    max-height: 600px;
+    max-height: 700px;
     padding-top: 50px;
     padding-bottom: 90px;
+    @media (max-width: 992px) {        
+        min-height: 45vw;
+        height: auto;
+    }
     img,
     video {
         position: absolute;
