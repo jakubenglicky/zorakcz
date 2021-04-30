@@ -27,13 +27,13 @@ body {
 }
 
 a {
-    color: #151515;
+    color: @color-red;
     text-decoration: none;
     transition: .25s;
 }  
 
 a:hover, a:focus {
-    color: @color-red;
+    color: #151515;
     text-decoration: none;
     outline: none;
 }
@@ -46,15 +46,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-    font-size: 32px;
+    font-size: 26px;
     line-height: 1.2;
+    margin-bottom: 20px;
+    text-align: center;
     @media (min-width: 768px) {
-        font-size: 56px;
-        line-height: 1.4;
-    }
-    @media (min-width: 992px) {
-        font-size: 62px;
-        line-height: 1.2;
+        font-size: 40px;
+        margin-bottom: 40px;
     }
 }
 
@@ -80,6 +78,13 @@ button:focus {
     outline: none;
 }
 
+input,
+textarea {
+    &:focus {
+        outline: none;
+    }
+}
+
 img {
     max-width: 100%;    
     vertical-align: middle;
@@ -88,6 +93,48 @@ img {
 
 textarea {
     max-width: 100%;
+}
+
+.btn {
+    border: 2px solid @color-red;
+    color: #151515;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 25px;
+    margin-top: 30px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: .3s;
+    &:hover {
+        background-color: @color-red;
+        color: white;
+    }
+}
+
+.center {
+    text-align: center;
+}
+
+section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.gallery {
+    .col-md-4 {
+        margin-bottom: 30px;
+    }
+    a {
+        img {
+            transition: .5s;
+        }
+        &:hover {
+            img {
+                filter: brightness(.7);
+            }
+        }
+    }
 }
 
 /* Images */
@@ -110,18 +157,12 @@ textarea {
 
 /* Header */
 .desktop-logo {
-    padding-top: 28px;
-    padding-bottom: 28px;
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
     img {
-        height: auto;
-    }
-    @media (min-width: 1200px) {
-        padding-top: 34px;
-        padding-bottom: 34px;
+        width: 420px;
     }
     @media (max-width: 992px) {
         display: none;
@@ -406,6 +447,7 @@ nav {
     .main-carousel-item {
         text-align: center;
         min-height: 34.4271vw;
+        max-height: 600px;
         position: relative;
         img {
             position: absolute;
@@ -433,6 +475,9 @@ nav {
     min-height: 45vw;
     position: relative;
     display: grid;
+    max-height: 600px;
+    padding-top: 50px;
+    padding-bottom: 90px;
     img,
     video {
         position: absolute;
@@ -447,6 +492,7 @@ nav {
     }
     &__text {
         margin-left: 30px;
+        margin-right: 30px;
         margin-top: auto;
         margin-bottom: auto;
         //@media @w768 {
@@ -456,18 +502,14 @@ nav {
         h1 {
             color: white;
             font-size: 40px;
-            //@media @w768 {
-            //    font-size: 72px;
-            //}
+            text-align: center;
+            @media (min-width: 768px) {
+                font-size: 72px;
+            }
         }
-        a {
-            border: 2px solid @color-red;
-            display: inline-block;
+        .btn {
+            color: white;
             font-size: 25px;
-            font-weight: bold;
-            padding: 10px 25px;
-            margin-top: 30px;
-            text-decoration: none;
         }
     }
 }
@@ -597,7 +639,7 @@ nav {
 
 /* o nas */
 #o-nas {
-    background-color: #f6f6f6;
+    background-color: #FBE8E7;
     color: #696969;
     padding: 50px 0;
     @media (min-width: 768px)   {
@@ -642,6 +684,16 @@ footer {
         font-size: 12px;
         padding: 0 15px;
     }
+    .socials {
+        a {
+            font-size: 25px;
+            padding-left: 5px;
+            padding-right: 5px;
+            &+a {
+                margin-left: 15px;
+            }
+        }
+    }
 }
 
 #spoluprace {
@@ -659,45 +711,50 @@ footer {
     }
     form {
         padding: 20px;
-        background: #f6f6f6;
         min-height: 420px;
         #form-name, #form-email {
-            border: 1px solid grey;
-            border-radius: 5px;
-            height: 40px;
+            border: none;
+            border-bottom: 2px solid #E1554B;
+            border-radius: 0;
             font-size: 16px;
-            padding-left: 5px;
-            width: 240px;
+            padding: 10px 5px;
+            width: 100%;
         }
         textarea {
-            width: 480px;
+            border: none;
+            border-bottom: 2px solid #E1554B;
+            width: 100%;
             height: 200px;
             resize: none;
             font-family: 'Open Sans', sans-serif;
             font-size: 16px;
         }
+        label {
+            margin-top: 10px;
+        }
         #submit {
-            height: 50px;
-            border: 1px solid grey;
-            border-radius: 5px;
-            color: #696969;
-            font-size: 16px;
+            border-radius: 0;
             background: white;
-            cursor: pointer;
+            &:hover {
+                background-color: @color-red;
+            }
         }
     }
 }
 
 #project-detail {
-    padding-bottom: 40px;
+    padding: 40px 15px 0;
+    @media (min-width: 768px) {
+        padding: 70px 30px 20px;
+    }
+    @media (min-width: 992px) {
+        padding: 90px 50px 20px;
+    }
     h2 {
         text-transform: uppercase;
     }
-    img {
-        margin-left: auto;
-        margin-right: auto;
-        width: 280px;
-        height: 200px;
-        margin-bottom: 5px;
+    p {
+        text-align: center;
+        margin-bottom: 60px;
     }
 }
