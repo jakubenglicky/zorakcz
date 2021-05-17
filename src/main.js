@@ -30,11 +30,46 @@ window.addEventListener("click", (event) => {
     });
 }, supportsPassive ? { passive: true } : false);
 
-var slider = tns({
-    container: '.my-slider',
-    items: 1,
-    slideBy: 'page',
-    autoplay: true,
-    autowidth: true,
-    controlsContainer: '#carousel-controls'
-  });
+// var slider = tns({
+//     container: '.my-slider',
+//     items: 1,
+//     slideBy: 'page',
+//     autoplay: true,
+//     autowidth: true,
+//     controlsContainer: '#carousel-controls'
+//   });
+
+let submit = document.getElementById('submit');
+if (submit) {
+    submit.addEventListener('click', function (){
+        let name = document.getElementById('form-name');
+        let email = document.getElementById('form-email');
+        let text = document.getElementById('form-text');
+
+        if ( ! name.value || ! email.value || ! text.value) {
+            alert('Zkontrolujte, zda máte formulář vyplněn správně.');
+            return;
+        }
+
+        let msg = {
+            subject: 'ZORRAK - Nezávazná poptávka',
+            text: 'Nezávazná poptávka od ' + name.value + ' (' + email.value + ') - ' + text.value,
+            html: '<h2>Nezávazná poptávka</h2><br>Jméno: <b>' + name.value + ' (' + email.value + ') </b><br><br>' + text.value.replaceAll('\n','<br>'),
+            to: 'info@zorrak.cz'
+        }
+
+        fetch('https://sendgrid-mailer.vercel.app/api', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify(msg),
+        });
+
+        name.value = '';
+        email.value = '';
+        text.value = '';
+
+        document.getElementsByClassName('message-ok')[0].style.display = 'block';
+    });
+}
