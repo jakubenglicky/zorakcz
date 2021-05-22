@@ -55,10 +55,10 @@ if (submit) {
             subject: 'ZORRAK - Nezávazná poptávka',
             text: 'Nezávazná poptávka od ' + name.value + ' (' + email.value + ') - ' + text.value,
             html: '<h2>Nezávazná poptávka</h2><br>Jméno: <b>' + name.value + ' (' + email.value + ') </b><br><br>' + text.value.replaceAll('\n','<br>'),
-            to: 'info@zorrak.cz'
+            email: email.value
         }
 
-        fetch('https://sendgrid-mailer.vercel.app/api', {
+        fetch('https://zorak-mailer.vercel.app/api', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
