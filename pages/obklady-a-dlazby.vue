@@ -8,49 +8,49 @@
 					<div class="container catalogs">
 						<div class="row">
 							<div class="col-md-4">
-								<a href="/catalogs/Rako/2021_katalog-news_east.pdf" class="catalog" target="_blank">RAKO: Home News 2021</a>
+								<a href="https://zorrak.s3-eu-west-1.amazonaws.com/catalogs/Rako/2021_katalog-news_east.pdf" class="catalog" target="_blank">RAKO: Home News 2021</a>
 							</div>
 							<div class="col-md-4">
-								<a href="/catalogs/Rako/2021_katalog-rako-east_home-object_v2.pdf" class="catalog" target="_blank">RAKO: Home Object 2021</a>
+								<a href="https://zorrak.s3-eu-west-1.amazonaws.com/catalogs/Rako/2021_katalog-rako-east_home-object_v2.pdf" class="catalog" target="_blank">RAKO: Home Object 2021</a>
 							</div>
 							<div class="col-md-4">
-								<a href="/catalogs/Wildstone/katalog.pdf" class="catalog" target="_blank">WILDSTONE 2021</a>
+								<a href="https://zorrak.s3-eu-west-1.amazonaws.com/catalogs/Wildstone/katalog.pdf" class="catalog" target="_blank">WILDSTONE 2021</a>
 							</div>
 							<div class="col-md-4">
-								<a href="/catalogs/Wildstone/wildstone_projects.pdf" class="catalog" target="_blank">WILDSTONE: Projects</a>
+								<a href="https://zorrak.s3-eu-west-1.amazonaws.com/catalogs/Wildstone/wildstone_projects.pdf" class="catalog" target="_blank">WILDSTONE: Projects</a>
 							</div>
 							<div class="col-md-4">
-								<a href="/catalogs/Del_Conca/collections_2020.pdf" class="catalog" target="_blank">DEL CONCA: Collection 2020</a>
+								<a href="https://zorrak.s3-eu-west-1.amazonaws.com/catalogs/Del_Conca/collections_2020.pdf" class="catalog" target="_blank">DEL CONCA: Collection 2020</a>
 							</div>
 							<div class="col-md-4">
-								<a href="/catalogs/Del_Conca/Folder_Boutique_Low.pdf" class="catalog" target="_blank">DEL CONCA: Boutique</a>
+								<a href="https://zorrak.s3-eu-west-1.amazonaws.com/catalogs/Del_Conca/Folder_Boutique_Low.pdf" class="catalog" target="_blank">DEL CONCA: Boutique</a>
 							</div>
 							<div class="col-md-4">
-								<a href="/catalogs/Fiandre/dys_fiandre.pdf" class="catalog" target="_blank">FIANDRE: DYS</a>
+								<a href="https://zorrak.s3-eu-west-1.amazonaws.com/catalogs/Fiandre/dys_fiandre.pdf" class="catalog" target="_blank">FIANDRE: DYS</a>
 							</div>
 							<div class="col-md-4">
-								<a href="/catalogs/Fiandre/maximum_in_marmi-mx3.pdf" class="catalog" target="_blank">FIANDRE: Marmi maximum</a>
+								<a href="https://zorrak.s3-eu-west-1.amazonaws.com/catalogs/Fiandre/maximum_in_marmi-mx3.pdf" class="catalog" target="_blank">FIANDRE: Marmi maximum</a>
 							</div>
 							<div class="col-md-4">
-								<a href="/catalogs/Geotiles/CATALOGO-GEO-baja.pdf" class="catalog" target="_blank">GEOTILES: Ceramica</a>
+								<a href="https://zorrak.s3-eu-west-1.amazonaws.com/catalogs/Geotiles/CATALOGO-GEO-baja.pdf" class="catalog" target="_blank">GEOTILES: Ceramica</a>
 							</div>
 							<div class="col-md-4">
-								<a href="/catalogs/Geotiles/CATALOGO-CRASH.pdf" class="catalog" target="_blank">GEOTILES: Crash</a>
+								<a href="https://zorrak.s3-eu-west-1.amazonaws.com/catalogs/Geotiles/CATALOGO-CRASH.pdf" class="catalog" target="_blank">GEOTILES: Crash</a>
 							</div>
 							<div class="col-md-4">
-								<a href="/catalogs/Pastorelli/Collections.pdf" class="catalog" target="_blank">PASTORELLI: Collections Book 2020</a>
+								<a href="https://zorrak.s3-eu-west-1.amazonaws.com/catalogs/Pastorelli/Collections.pdf" class="catalog" target="_blank">PASTORELLI: Collections Book 2020</a>
 							</div>
 							<div class="col-md-4">
-								<a href="/catalogs/Pastorelli/Colorful.pdf" class="catalog" target="_blank">PASTORELLI: Colorful</a>
+								<a href="https://zorrak.s3-eu-west-1.amazonaws.com/catalogs/Pastorelli/Colorful.pdf" class="catalog" target="_blank">PASTORELLI: Colorful</a>
 							</div>
 							<div class="col-md-4">
-								<a href="/catalogs/Porcelaingres/0general_porcelaingres.pdf" class="catalog" target="_blank">PORCELAINGRES: Smart Book 2020</a>
+								<a href="https://zorrak.s3-eu-west-1.amazonaws.com/catalogs/Porcelaingres/0general_porcelaingres.pdf" class="catalog" target="_blank">PORCELAINGRES: Smart Book 2020</a>
 							</div>
 							<div class="col-md-4">
-								<a href="/catalogs/Porcelaingres/stone_box_03-2019.pdf" class="catalog" target="_blank">PORCELAINGRES: Stone</a>
+								<a href="https://zorrak.s3-eu-west-1.amazonaws.com/catalogs/Porcelaingres/stone_box_03-2019.pdf" class="catalog" target="_blank">PORCELAINGRES: Stone</a>
 							</div>
 							<div class="col-md-4">
-								<a href="/catalogs/CIR/BOOK-CIR-2020.pdf" class="catalog" target="_blank">CIR: Book 2020</a>
+								<a href="https://zorrak.s3-eu-west-1.amazonaws.com/catalogs/CIR/BOOK-CIR-2020.pdf" class="catalog" target="_blank">CIR: Book 2020</a>
 							</div>
 						</div>
 

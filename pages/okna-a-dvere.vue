@@ -7,7 +7,7 @@
 					<div class="container catalogs">
 						<div class="row">
 							<div class="col-md-12">
-								<a href="/catalogs/Siko/KATALOG_dvere_podlahy_2021_CZ.pdf" class="catalog" target="_blank">SIKO: Dveře a podlahy 2021</a>
+								<a href="https://zorrak.s3-eu-west-1.amazonaws.com/catalogs/Siko/KATALOG_dvere_podlahy_2021_CZ.pdf" class="catalog" target="_blank">SIKO: Dveře a podlahy 2021</a>
 							</div>
 						</div>
 						<br>
