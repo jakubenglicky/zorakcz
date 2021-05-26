@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/obklady-a-dlazby", {data:[{}],fetch:{},mutations:void 0});
