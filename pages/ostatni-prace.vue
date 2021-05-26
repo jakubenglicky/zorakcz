@@ -1,61 +1,6 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Ostatní práce | ZORRAK - čistá práce</title>
-	<link rel="icon" href="/img/favicon.png">
-
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.3/tiny-slider.css">
-	<!--[if (lt IE 9)]><script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.3/min/tiny-slider.helper.ie8.js"></script><![endif]-->
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
-
-	<link rel="preconnect" href="https://fonts.gstatic.com">
-	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap" rel="stylesheet">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css">
-</head>
-<body>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
-
-	<div class="desktop-logo">
-		<a href="/">
-			<img src="/img/ZORRAK_cista_prace_logo_humrova+modra_02-ai.svg">
-		</a>
-	</div>
-
-	<header>
-		<nav class="click-dropdown">
-			<div class="navbar-brand">
-				<a href="/">
-					<img src="/img/ZORRAK_cista_prace_logo_humrova+modra_02-ai_orez.svg">
-				</a>
-			</div>
-
-			<button class="navbar-toggle open-drop">
-				<span></span>
-			</button>
-
-			<div class="navbar-content click-dropdown-content">
-				<ul>
-					<li>
-						<a href="/#uvod">Úvod</a>
-					</li>
-					<li>
-						<a class="active" href="/#projekty">Katalogy a realizované projekty</a>
-					</li>
-					<li>
-						<a href="/#o-nas">O nás</a>
-					</li>
-					<li>
-						<a href="/#kontakt">Kontakt</a>
-					</li>
-				</ul>
-			</div>
-		</nav>
-	</header>
-
-	<main>
-				<section id="project-detail">
+<template>
+    <div>
+        <section id="project-detail">
 						<h1>Dále také umíme...</h1>
 					<p>...zemní práce, výkopové práce, rekonstrukce cest, terénní úpravy, vodní stavby, aj.
 					<br>Neváhejte nás kontaktovat a my se Vám ozveme s nabídkou.</p>
@@ -159,40 +104,13 @@
 						</div>
 						</div>
 				</section>
-	</main>
+    </div>
+</template>
 
-	<footer>
-		<div class="container" id="kontakt">
-			<div class="row">
-				<div class="col-md-4">
-					<img src="/img/ZORRAK_logo_humrova-ai.svg">
-					<div class="copyright">
-						© 2021 ZORRAK<br>
-						Foto: <a href="https://unsplash.com/" target="_blank">unsplash.com</a>
-					</div>
-				</div>
-				<div class="col-md-4">
-					<h4>Kontakt</h4>
-					<ul>
-						<li>Zorrak s.r.o.</li>
-						<li>tel: <a href="tel:+420 774 026 207">+420 774 026 207</a></li>
-						<li>mail: <a href="mailto:info@zorrak.cz">info@zorrak.cz</a></li>
-						<li>Šamotka 1987, 269 01 Rakovník</li>
-					</ul>
-					<p>Máte dotaz či připomínku? <a href="mailto:info@zorrak.cz">Napište nám.</a></p>
-				</div>
-				<div class="col-md-4 socials">
-					<h4>Sledujte nás</h4>
-					<a href="https://www.facebook.com"><i class="fab fa-facebook-f"></i></a>
-					<a href="insta"><i class="fab fa-instagram"></i></a>
-				</div>
-			</div>
-		</div>
-	</footer>
-
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox-plus-jquery.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
-	<script src="/js/bundle.js"></script>
-
-</body>
-</html>
+<script>
+export default {
+    head: {
+      title: 'Ostatní práce | ZORRAK - čistá práce',
+    }
+}
+</script>
