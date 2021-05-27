@@ -58,3 +58,11 @@
         </div>
     </section>
 </template>
+
+<script>
+export default {
+    head: {
+      title: 'Zásady ochrany osobních údajů | ZORRAK - čistá práce',
+    }
+}
+</script>
