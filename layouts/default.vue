@@ -64,8 +64,8 @@
 				</div>
 				<div class="col-md-4 socials">
 					<h4>Sledujte nás</h4>
-					<a href="https://www.facebook.com"><i class="fab fa-facebook-f"></i></a>
-					<a href="insta"><i class="fab fa-instagram"></i></a>
+					<a href="https://www.facebook.com/pg/ZORRAKsro/about/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+					<a href="https://instagram.com/zorrak.cz" target="_blank"><i class="fab fa-instagram"></i></a>
 				</div>
 			</div>
 		</div>
