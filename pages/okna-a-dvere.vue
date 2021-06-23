@@ -9,6 +9,9 @@
 							<div class="col-md-12">
 								<a href="https://zorrak.s3-eu-west-1.amazonaws.com/catalogs/Siko/KATALOG_dvere_podlahy_2021_CZ.pdf" class="catalog" target="_blank">SIKO: Dveře a podlahy 2021</a>
 							</div>
+              <div class="col-md-12">
+                <a href="/?type=okna#poptavka" class="catalog-black"><i class="fas fa-hands-helping fa-2x"></i> <b>ZASLAT POPTÁVKU?</b></a>
+              </div>
 						</div>
 						<br>
 						<br>

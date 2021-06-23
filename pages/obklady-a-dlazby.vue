@@ -52,9 +52,11 @@
 							<div class="col-md-4">
 								<a href="https://zorrak.s3-eu-west-1.amazonaws.com/catalogs/CIR/BOOK-CIR-2020.pdf" class="catalog" target="_blank">CIR: Book 2020</a>
 							</div>
+              <div class="col-md-12">
+                <a href="/?type=obklady#poptavka" class="catalog-black"><i class="fas fa-hands-helping fa-2x"></i> <b>ZASLAT POPTÁVKU?</b></a>
+              </div>
 						</div>
 
-						<br>
 						<br>
 					</div>
 					<h3>Galerie realizovaných projektů</h3>

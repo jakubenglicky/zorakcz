@@ -4,6 +4,14 @@
 						<h1>Dále také umíme...</h1>
 					<p>...zemní práce, výkopové práce, rekonstrukce cest, terénní úpravy, vodní stavby, aj.
 					<br>Neváhejte nás kontaktovat a my se Vám ozveme s nabídkou.</p>
+          <div class="catalogs">
+            <div class="row">
+              <div class="col-md-12">
+                <a href="/#poptavka" class="catalog-black"><i class="fas fa-hands-helping fa-2x"></i> <b>ZASLAT POPTÁVKU?</b></a>
+              </div>
+            </div>
+          </div>
+
 					<h3>Galerie realizovaných projektů</h3>
 					<div class="row gallery">
 							<div class="col-md-4">
