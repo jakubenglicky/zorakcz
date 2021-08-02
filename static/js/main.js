@@ -73,21 +73,3 @@ if (submit) {
         document.getElementsByClassName('message-ok')[0].style.display = 'block';
     });
 }
-
-window.addEventListener('load', function (){
-    let type = location.search.split('type=')[1];
-
-    if (type === 'obklady') {
-        document.getElementById('form-name').focus();
-        document.getElementById('form-text').innerHTML = 'Dobrý den, \n\n' +
-            'prosím o zaslání nezávazné nabídky na obklady / dlažbu. ' +
-            '\n\nJedná se o rozměry: ' +
-            '\n\nDěkuji. \n';
-    } else if (type === 'okna') {
-        document.getElementById('form-name').focus();
-        document.getElementById('form-text').innerHTML = 'Dobrý den, \n\n' +
-            'prosím o zaslání nezávazné nabídky na dveře / okna. ' +
-            '\n\nJedná se o rozměry: ' +
-            '\n\nDěkuji. \n';
-    }
-});

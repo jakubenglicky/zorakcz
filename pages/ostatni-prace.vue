@@ -7,7 +7,7 @@
           <div class="catalogs">
             <div class="row">
               <div class="col-md-12">
-                <a href="/#poptavka" class="catalog-black"><i class="fas fa-hands-helping fa-2x"></i> <b>ZASLAT POPTÁVKU?</b></a>
+                <a href="#poptavka" class="catalog-black"><i class="fas fa-hands-helping fa-2x"></i> <b>ZASLAT POPTÁVKU?</b></a>
               </div>
             </div>
           </div>
@@ -112,13 +112,24 @@
 						</div>
 						</div>
 				</section>
+      <Poptavka :text="textareaText"></Poptavka>
     </div>
 </template>
 
 <script>
+import Poptavka from "../components/Poptavka";
+
 export default {
-    head: {
-      title: 'Ostatní práce | ZORRAK - čistá práce',
+  components: {
+    Poptavka,
+  },
+  asyncData() {
+    return {
+      textareaText: ''
     }
+  },
+  head: {
+    title: 'Ostatní práce | ZORRAK - čistá práce',
+  }
 }
 </script>

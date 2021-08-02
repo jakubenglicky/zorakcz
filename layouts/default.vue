@@ -38,6 +38,30 @@
       </header>
     <main>
     <Nuxt />
+
+
+      <section id="partneri">
+        <!--<div class="container">
+          <h2>Partneři</h2>
+          <div class="row">
+            <a href="">
+              <img src="/img/loga/rako.png">
+            </a>
+            <a href="">
+              <img src="/img/loga/siko.png">
+            </a>
+            <a href="">
+              <img src="/img/loga/ytong.png">
+            </a>
+            <a href="">
+              <img src="/img/loga/trend.png">
+            </a>
+            <a href="">
+              <img src="/img/loga/dek.png">
+            </a>
+          </div>
+        </div>-->
+      </section>
     </main>   
     <footer>
 		<div class="container" id="kontakt">
