@@ -26,5 +26,12 @@ export default {
     css: [
       '~/assets/less/style'
     ],
+
+    modules: [
+      '@nuxtjs/gtm',
+    ],
+    gtm: {
+      id: 'G-KTB0KENN42'
+    }
   }
   
