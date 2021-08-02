@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/ostatni-prace", {data:[{}],fetch:{},mutations:void 0});

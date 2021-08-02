@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/obklady-a-dlazby", {data:[{textareaText:"Dobrý den, \n\nprosím o zaslání nezávazné nabídky na obklady \u002F dlažbu. \n\nJedná se o rozměry: \n\nDěkuji. \n"}],fetch:{},mutations:void 0});

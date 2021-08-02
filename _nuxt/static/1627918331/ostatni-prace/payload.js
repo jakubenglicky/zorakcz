@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/ostatni-prace", {data:[{textareaText:""}],fetch:{},mutations:void 0});

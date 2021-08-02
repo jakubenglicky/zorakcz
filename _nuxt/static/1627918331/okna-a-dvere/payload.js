@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/okna-a-dvere", {data:[{textareaText:"Dobrý den, \n\nprosím o zaslání nezávazné nabídky na dveře \u002F okna. \n\nJedná se o rozměry: \n\nDěkuji. \n"}],fetch:{},mutations:void 0});

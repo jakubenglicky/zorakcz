@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/okna-a-dvere", {data:[{}],fetch:{},mutations:void 0});

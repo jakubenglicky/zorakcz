@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/", {data:[{textareaText:""}],fetch:{},mutations:void 0});
