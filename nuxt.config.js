@@ -28,9 +28,9 @@ export default {
     ],
 
     modules: [
-      '@nuxtjs/gtm',
+      '@nuxtjs/google-analytics',
     ],
-    gtm: {
+    googleAnalytics: {
       id: 'G-KTB0KENN42'
     }
   }
