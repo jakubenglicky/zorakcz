@@ -69,7 +69,7 @@
 				<div class="col-md-4">
 					<img src="/img/ZORRAK_logo_humrova-ai.svg">
 					<div class="copyright">
-						© 2021 ZORRAK<br>
+						© 2022 ZORRAK<br>
 						Foto: <a href="https://unsplash.com/" target="_blank">unsplash.com</a>
             <br>
             <a href="/gdpr/">Zásady ochrany osobních údajů</a>
