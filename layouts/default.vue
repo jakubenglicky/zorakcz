@@ -80,6 +80,7 @@
 					<ul>
 						<li>Zorrak s.r.o.</li>
             <li> IČO: 10878173 </li>
+	    <li> DIČ: CZ10878173 </li>
 						<li>tel: <a href="tel:+420 774 026 207">+420 774 026 207</a></li>
 						<li>mail: <a href="mailto:info@zorrak.cz">info@zorrak.cz</a></li>
 						<li>Šamotka 1987, 269 01 Rakovník</li>
