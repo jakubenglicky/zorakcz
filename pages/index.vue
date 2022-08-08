@@ -137,6 +137,24 @@
 			</div>
 		</section>
     <Poptavka :text="textareaText"></Poptavka>
+	<div>
+		<section id="eshop">
+			<div class="container">
+				<h2 class="center">Inovujte a zlepšujte</h2>
+			<div class="row">
+				<div class="col-md-12">
+				<p>
+					Dokončujete výstavbu domu, uvažujete o zvelebení vašeho bytu nebo toužíte po chytré domácnosti? Náš internetový obchod <a href="https://www.zorak.cz/" target="blank">zorak.cz</a> vám nabízí nespočet možností jak udělat z obyčejného neobyčejné. Budeme se těšit na vaši objednávku.
+				</p>
+				<div class="center">
+				<a href="https://www.zorak.cz/" target="blank" class="btn">PŘEJÍT NA NÁŠ E-SHOP <font-awesome-icon icon="fa-solid fa-cart-shopping" /></a>
+				</div>
+				</div>
+			
+			</div>
+			</div>
+		</section>
+	</div>
   </div>
 </template>
 

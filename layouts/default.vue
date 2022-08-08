@@ -30,6 +30,9 @@
                 <a href="/#o-nas">O nás</a>
               </li>
               <li>
+                <a href="/#eshop">E-shop</a>
+              </li>
+              <li>
                 <a href="/#kontakt">Kontakt</a>
               </li>
             </ul>
