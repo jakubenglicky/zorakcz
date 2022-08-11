@@ -30,7 +30,7 @@
                 <a href="/#o-nas">O nás</a>
               </li>
               <li>
-                <a href="/#eshop">E-shop</a>
+                <a href="https://www.zorak.cz/" target="blank">E-shop</a>
               </li>
               <li>
                 <a href="/#kontakt">Kontakt</a>
