@@ -143,7 +143,7 @@
 				<h2 class="center">Inovujte a zlepšujte</h2>
 			<div class="row">
 				<div class="col-md-12">
-				<p>
+				<p style="text-align: justify;">
 					Dokončujete výstavbu domu, uvažujete o zvelebení vašeho bytu nebo toužíte po chytré domácnosti? Náš internetový obchod <a href="https://www.zorak.cz/" target="blank">zorak.cz</a> vám nabízí nespočet možností jak udělat z obyčejného neobyčejné. Budeme se těšit na vaši objednávku.
 				</p>
 				<div class="center">
