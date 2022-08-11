@@ -9,7 +9,7 @@ export default {
       meta: [
         { charset: 'utf-8' },
         { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-        { hid: 'description', name: 'description', content: '' }
+        { hid: 'description', name: 'description', content: 'Jsme realizační firmou staveb poskytující komplexní služby zejména v oblastech stavební a zednické práce, obkladačské práce, zámkové dlažby, realizace oken a dveří, zemní práce, aj.' }
       ],
       link: [
         { rel: 'icon', type: 'image/x-icon', href: '/img/favicon.png' },
